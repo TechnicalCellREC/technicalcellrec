@@ -437,9 +437,9 @@ section .title::after {
 }
 
 /* teams section styling */
-.teams .title::after {
+/* .teams .title::after {
   content: "Who We Are";
-}
+} */
 .teams .carousel .card {
   background: #222;
   border-radius: 6px;
@@ -1102,6 +1102,12 @@ footer {
   filter: brightness(80%);
 } */
 .one {
+  text-align: center;
+}
+.wi {
+  text-align: center;
+}
+#wii {
   text-align: center;
 }
 
