@@ -29,27 +29,28 @@ $(document).ready(function(){
 
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass("active");
+        $('.menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Workshop", "Competition", "Fun Games", "More at GEC"],
+        strings: ["We learn", "We evolve", "We grow", ],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
-        strings: ["Workshop", "Competition", "Fun Games", "More at GEC"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
+    // var typed = new Typed(".typing-2", {
+    //     strings: ["Workshop", "Competition", "Fun Games", "More at GEC"],
+    //     typeSpeed: 100,
+    //     backSpeed: 60,
+    //     loop: true
+    // });
 
     // owl carousel script
     $('.carousel').owlCarousel({
+        navigation : true,
         margin: 20,
         loop: true,
         autoplay: true,
@@ -71,3 +72,24 @@ $(document).ready(function(){
         }
     });
 });
+
+
+
+//script new opening tag //
+// const mainMenu = document.querySelector('.mainMenu');
+// const closeMenu = document.querySelector('.closeMenu');
+// const openMenu = document.querySelector('.openMenu');
+
+
+
+
+// openMenu.addEventListener('click',show);
+// closeMenu.addEventListener('click',close);
+
+// function show(){
+//     mainMenu.style.display = 'flex';
+//     mainMenu.style.top = '0';
+// }
+// function close(){
+//     mainMenu.style.top = '-100%';
+// }
