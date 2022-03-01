@@ -25,7 +25,9 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
+/* .registration {
+  align-items: center;
+} */
 /* all similar content styling codes */
 section {
   padding: 100px 0;
