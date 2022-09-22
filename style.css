@@ -132,8 +132,8 @@ section .title::after {
 }
 .navRow .menu li a:hover {
   color: white;
-  border: 1px solid black;
-  background-color: #111;
+  border: 1px solid #160e35;
+  background-color: #160e35;
   text-decoration: none;
   padding: 2px 5px;
   border-radius: 6px;
@@ -153,7 +153,7 @@ section .title::after {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: crimson;
+  background: #f052fc;
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -209,23 +209,23 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: rgb(149 58 242);
+  color: rgb(240 82 252);
   font-weight: 500;
 }
 .home .home-content a {
   display: inline-block;
-  background: rgb(3, 3, 66);
-  color: #fff;
+  background: rgb(49, 30, 112);
+  color: rgb(240, 82, 252);
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid rgb(2, 2, 17);
+  border: 2px solid rgb(240, 82, 252);
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: crimson;
+  color: rgb(255, 255, 255);
   background: none;
 }
 
@@ -234,7 +234,7 @@ section .title::after {
   content: "who i am";
 } */
 .about {
-  background-color: rgb(200, 218, 226);
+  background-color: rgb(255, 255, 255);
 }
 .about .about-content .left {
   width: 45%;
@@ -280,7 +280,7 @@ section .title::after {
 .services,
 .teams {
   color: #fff;
-  background: #111;
+  background: #160e35;
 }
 .services .title::before,
 .teams .title::before {
@@ -304,22 +304,22 @@ section .title::after {
   background: crimson;
 }
 #card-color-1:hover {
-  background-color: #3b5998;
+  background-color: rgba(0, 0, 0, 0.193);
 }
 #card-color-2:hover {
-  background-color: #3b8d98;
+  background-color: rgba(0, 0, 0, 0.193);
 }
 #card-color-3:hover {
-  background-color: #37383a;
+  background-color: rgba(0, 0, 0, 0.193);
 }
 #card-color-4:hover {
-  background-color: #194ec2;
+  background-color: rgba(0, 0, 0, 0.193);
 }
 #card-color-5:hover {
-  background-color: #983b71;
+  background-color: rgba(0, 0, 0, 0.193);
 }
 #card-color-6:hover {
-  background-color: #6e3b98;
+  background-color: rgba(0, 0, 0, 0.193);
 }
 
 .services .serv-content .card .box {
@@ -330,7 +330,7 @@ section .title::after {
 }
 .services .serv-content .card i {
   font-size: 50px;
-  color: crimson;
+  color: rgb(255, 255, 255);
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
@@ -346,11 +346,11 @@ section .title::after {
 */
 
 .fa-bars {
-  color: black;
+  color: #160e35;
 }
 
 .menu-btn {
-  color: #111;
+  color: #160e35;
 }
 
 .menu-btn .active {
@@ -451,7 +451,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .teams .carousel .card:hover {
-  background: crimson;
+  background: rgba(0, 0, 0, 0.193);
 }
 .teams .carousel .card .box {
   display: flex;
@@ -473,7 +473,7 @@ section .title::after {
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid crimson;
+  border: 5px solid #fff;
   transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img {
@@ -489,7 +489,7 @@ section .title::after {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid crimson !important;
+  border: 2px solid #f052fc !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -498,7 +498,7 @@ section .title::after {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: crimson !important;
+  background: #f052fc !important;
 }
 
 /* contact section styling */
@@ -529,7 +529,7 @@ section .title::after {
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: crimson;
+  color: #160e35;
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -588,23 +588,23 @@ section .title::after {
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: #160e35;
+  border: 2px solid #160e35;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
-  color: crimson;
+  color: #160e35;
   background: none;
 }
 /* footer section styling */
 footer {
-  background: #111;
-  padding: 15px 23px;
-  color: #fff;
+  background: rgb(255, 255, 255);
+  padding: 15px 0px;
+  color: #160e35;
   text-align: center;
 }
 footer span a {
-  color: crimson;
+  color: #160e35;
   text-decoration: none;
 }
 footer span a:hover {
@@ -653,7 +653,7 @@ footer span a:hover {
     width: 100%;
     left: -100%;
     top: 0;
-    background: rgb(22, 22, 22);
+    background: #160e35;
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
@@ -807,7 +807,8 @@ footer {
   text-align: center;
   display: block;
   margin-top: 1rem;
-  background-color: #111;
+  background-color: #160e35;
+  border: 2px solid rgb(22, 14, 53);
   color: #fff;
   width: fit-content;
   margin: 0 auto;
@@ -817,8 +818,8 @@ footer {
 
 .view_more:hover {
   text-decoration: none;
-  color: white;
-  background-color: rgb(28, 57, 96);
+  color: #160e35;
+  background-color: #00000000;
 }
 
 .footer-basic {
@@ -883,12 +884,12 @@ footer {
 
 /* fotter icon  */
 #lab_social_icon_footer {
-  padding: 40px 0;
-  background-color: black;
+  padding: 30px 0;
+  background-color: #160e35;
 }
 
 #lab_social_icon_footer a {
-  color: #333;
+  color: #fff;
 }
 
 #lab_social_icon_footer .social:hover {
@@ -912,7 +913,7 @@ footer {
 */
 
 #lab_social_icon_footer #social-fb:hover {
-  color: #3b5998;
+  color: #4099ff;
 }
 
 #lab_social_icon_footer #social-tw:hover {
@@ -920,11 +921,11 @@ footer {
 }
 
 #lab_social_icon_footer #social-gp:hover {
-  color: #d34836;
+  color: #f700a9;
 }
 
 #lab_social_icon_footer #social-em:hover {
-  color: #f39c12;
+  color: #ff0000;
 }
 
 /* additinal testimunial  */
