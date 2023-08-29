@@ -363,6 +363,11 @@ section .title::after {
 #founder1 {
   border-radius: 50%;
 }
+
+/* padding style for news letter section  */
+#letter{
+  padding: 0%;
+}
 /* skills section styling */
 
 .skills .title::after {
